@@ -1,9 +1,10 @@
 [gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://assets/animations/png/player/02_PlayerCharacter_Run_01.png" type="Texture" id=1]
+[ext_resource path="res://assets/animations/png/player/stand/03_PlayerCharacter_stand_idle.png" type="Texture" id=1]
 
 [node name="Game" type="Node2D"]
 
-[node name="02_PlayerCharacter_Run_01" type="Sprite" parent="."]
-position = Vector2( 77, 216 )
+[node name="03_PlayerCharacter_stand_idle" type="Sprite" parent="."]
+position = Vector2( 167.745, 156.236 )
 texture = ExtResource( 1 )
+hframes = 2
